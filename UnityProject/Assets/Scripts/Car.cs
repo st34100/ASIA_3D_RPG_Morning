@@ -4,13 +4,16 @@ public class Car : MonoBehaviour
 {
     // 定義欄位 (宣告變數)
     // 語法：
-    // 類型 名稱 結束
+    // 修飾詞 類型 名稱 結束
+    // 私人 - 隱藏 private (預設)
+    // 公開 - 顯示 public
+
     // 整數 int
-    int cc;
+    public int cc; 
     // 浮點數 float
-    float weight;
+    public float weight;
     // 字串 string
-    string brand;
+    public string brand;
     // 布林值 bool
-    bool _break;
+    public bool _break;
 }
