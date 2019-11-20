@@ -1120,9 +1120,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da8b212788e344a46abbc617e17ce03b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cc: 0
-  weight: 0
-  brand: 
+  cc: 2000
+  weight: 150.5
+  brand: BMW
   _break: 0
 --- !u!4 &233718442
 Transform:
