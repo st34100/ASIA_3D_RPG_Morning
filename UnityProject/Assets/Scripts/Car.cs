@@ -16,4 +16,27 @@ public class Car : MonoBehaviour
     public string brand = "BMW";    // 字串 string
     [Header("剎車"), Tooltip("判斷汽車是否剎車，true 剎車中，false 沒有剎車")]
     public bool _break = false;     // 布林值 bool - true/false
+
+    // 事件：在特定時間會已指定次數執行
+    // 開始事件：播放時候執行一次
+    private void Start()
+    {
+        // API 功能 - 輸出
+        print("哈囉，沃德~");
+        // 取得欄位
+        print(cc);
+        print(brand);
+        // 存放欄位
+        weight = 999.9f;
+        cc = 3000;
+        brand = "福特";
+        _break = true;
+    }
+
+    // 更新事件：約一秒執行 60 次 (60FPS)
+    // 監聽玩家輸入事件
+    private void Update()
+    {
+        print("啦啦啦~");
+    }
 }
