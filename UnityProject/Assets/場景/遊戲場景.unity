@@ -5207,6 +5207,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1801875592}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1557041892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1557041891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ed6fbb2f853dee40be4f424e9745f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parRun: "\u8DD1\u6B65\u958B\u95DC"
+  parJump: "\u8DF3\u8E8D\u958B\u95DC"
+  parAtk: "\u653B\u64CA\u89F8\u767C"
+  parDamage: "\u53D7\u50B7\u89F8\u767C"
+  parDead: "\u6B7B\u4EA1\u958B\u95DC"
+  countNeed: 10
+  countCurrent: 0
+  isDead: 0
+  hp: 100
 --- !u!95 &1557041893
 Animator:
   serializedVersion: 3
